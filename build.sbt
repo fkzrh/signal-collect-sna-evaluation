@@ -9,9 +9,7 @@ organization := "com.signalcollect"
  
 scalaVersion := "2.11.2"
 
-scalacOptions ++= Seq("-optimize", "-Yinline-warnings", "-feature", "-deprecation", "-Xelide-below", "INFO" , "-target:jvm-1.6")
-
-javacOptions ++= Seq("-source","1.6","-target","1.6")
+scalacOptions ++= Seq("-optimize", "-Yinline-warnings", "-feature", "-deprecation", "-Xelide-below", "INFO" , "-target:jvm-1.7")
 
 parallelExecution in Test := false
 

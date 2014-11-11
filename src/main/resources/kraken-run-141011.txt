@@ -1,0 +1,1063 @@
+read file examplegraph
+read file karate
+read file dolphins
+read file polbooks
+read file ht2009_15min
+read file football
+read file jazz
+read file airlines
+read file celegansneural
+read file celegans
+read file codeminer
+read file email
+read file polblogs
+read file yeast
+read file facebook
+read file power
+read file geom
+read file eva
+read file pgpgiantcompo
+read file p2p-Gnutella04
+read file days
+read file comichero
+read file p2p-Gnutella25
+read file as-22july06
+read file eatrs
+read file p2p-Gnutella24
+read file hep-th
+read file hep-th-new
+read file p2p-Gnutella30
+read file p2p-Gnutella
+read file soc-Epinions1
+read file soc-slashdot0811
+read file wordnet
+read file soc-sign-epinions
+read file com-amazon
+All files read successfully
+/home/user/fkeller/datasets/examplegraph.gml
+computation time for degree = 0.108 seconds
+/home/user/fkeller/datasets/karate.gml
+computation time for degree = 0.102 seconds
+/home/user/fkeller/datasets/dolphins.gml
+computation time for degree = 0.101 seconds
+/home/user/fkeller/datasets/polbooks.gml
+computation time for degree = 0.107 seconds
+/home/user/fkeller/datasets/ht2009_15min.gml
+computation time for degree = 0.119 seconds
+/home/user/fkeller/datasets/football.gml
+computation time for degree = 0.112 seconds
+/home/user/fkeller/datasets/jazz.gml
+computation time for degree = 0.111 seconds
+/home/user/fkeller/datasets/airlines.gml
+computation time for degree = 0.116 seconds
+/home/user/fkeller/datasets/celegansneural.gml
+computation time for degree = 0.112 seconds
+/home/user/fkeller/datasets/celegans.gml
+computation time for degree = 0.098 seconds
+/home/user/fkeller/datasets/codeminer.gml
+computation time for degree = 0.09 seconds
+/home/user/fkeller/datasets/email.gml
+computation time for degree = 0.111 seconds
+/home/user/fkeller/datasets/polblogs.gml
+computation time for degree = 0.149 seconds
+/home/user/fkeller/datasets/yeast.gml
+computation time for degree = 0.166 seconds
+/home/user/fkeller/datasets/facebook.gml
+computation time for degree = 0.178 seconds
+/home/user/fkeller/datasets/power.gml
+computation time for degree = 0.184 seconds
+/home/user/fkeller/datasets/geom.gml
+computation time for degree = 0.243 seconds
+/home/user/fkeller/datasets/eva.gml
+computation time for degree = 0.358 seconds
+/home/user/fkeller/datasets/pgpgiantcompo.gml
+computation time for degree = 0.363 seconds
+/home/user/fkeller/datasets/p2p-Gnutella04.gml
+computation time for degree = 0.427 seconds
+/home/user/fkeller/datasets/days.gml
+computation time for degree = 0.372 seconds
+/home/user/fkeller/datasets/comichero.gml
+computation time for degree = 0.518 seconds
+/home/user/fkeller/datasets/p2p-Gnutella25.gml
+computation time for degree = 0.879 seconds
+/home/user/fkeller/datasets/as-22july06.gml
+computation time for degree = 0.678 seconds
+/home/user/fkeller/datasets/eatrs.gml
+computation time for degree = 0.503 seconds
+/home/user/fkeller/datasets/p2p-Gnutella24.gml
+computation time for degree = 0.962 seconds
+/home/user/fkeller/datasets/hep-th.gml
+computation time for degree = 0.965 seconds
+/home/user/fkeller/datasets/hep-th-new.gml
+computation time for degree = 0.831 seconds
+/home/user/fkeller/datasets/p2p-Gnutella30.gml
+computation time for degree = 1.28 seconds
+/home/user/fkeller/datasets/p2p-Gnutella.gml
+computation time for degree = 1.965 seconds
+/home/user/fkeller/datasets/soc-Epinions1.gml
+computation time for degree = 2.495 seconds
+/home/user/fkeller/datasets/soc-slashdot0811.gml
+computation time for degree = 2.525 seconds
+/home/user/fkeller/datasets/wordnet.gml
+computation time for degree = 2.334 seconds
+/home/user/fkeller/datasets/soc-sign-epinions.gml
+computation time for degree = 3.71 seconds
+/home/user/fkeller/datasets/com-amazon.gml
+computation time for degree = 11.896 seconds
+read file examplegraph
+read file karate
+read file dolphins
+read file polbooks
+read file ht2009_15min
+read file football
+read file jazz
+read file airlines
+read file celegansneural
+read file celegans
+read file codeminer
+read file email
+read file polblogs
+read file yeast
+read file facebook
+read file power
+read file geom
+read file eva
+read file pgpgiantcompo
+read file p2p-Gnutella04
+read file days
+read file comichero
+read file p2p-Gnutella25
+read file as-22july06
+read file eatrs
+read file p2p-Gnutella24
+read file hep-th
+read file hep-th-new
+read file p2p-Gnutella30
+read file p2p-Gnutella
+read file soc-Epinions1
+read file soc-slashdot0811
+read file wordnet
+read file soc-sign-epinions
+read file com-amazon
+All files read successfully
+/home/user/fkeller/datasets/examplegraph.gml
+computation time for degree = 0.048 seconds
+/home/user/fkeller/datasets/karate.gml
+computation time for degree = 0.053 seconds
+/home/user/fkeller/datasets/dolphins.gml
+computation time for degree = 0.063 seconds
+/home/user/fkeller/datasets/polbooks.gml
+computation time for degree = 0.061 seconds
+/home/user/fkeller/datasets/ht2009_15min.gml
+computation time for degree = 0.061 seconds
+/home/user/fkeller/datasets/football.gml
+computation time for degree = 0.062 seconds
+/home/user/fkeller/datasets/jazz.gml
+computation time for degree = 0.067 seconds
+/home/user/fkeller/datasets/airlines.gml
+computation time for degree = 0.074 seconds
+/home/user/fkeller/datasets/celegansneural.gml
+computation time for degree = 0.07 seconds
+/home/user/fkeller/datasets/celegans.gml
+computation time for degree = 0.07 seconds
+/home/user/fkeller/datasets/codeminer.gml
+computation time for degree = 0.076 seconds
+/home/user/fkeller/datasets/email.gml
+computation time for degree = 0.106 seconds
+/home/user/fkeller/datasets/polblogs.gml
+computation time for degree = 0.109 seconds
+/home/user/fkeller/datasets/yeast.gml
+computation time for degree = 0.129 seconds
+/home/user/fkeller/datasets/facebook.gml
+computation time for degree = 0.17 seconds
+/home/user/fkeller/datasets/power.gml
+computation time for degree = 0.196 seconds
+/home/user/fkeller/datasets/geom.gml
+computation time for degree = 0.222 seconds
+/home/user/fkeller/datasets/eva.gml
+computation time for degree = 0.316 seconds
+/home/user/fkeller/datasets/pgpgiantcompo.gml
+computation time for degree = 0.366 seconds
+/home/user/fkeller/datasets/p2p-Gnutella04.gml
+computation time for degree = 0.446 seconds
+/home/user/fkeller/datasets/days.gml
+computation time for degree = 0.323 seconds
+/home/user/fkeller/datasets/comichero.gml
+computation time for degree = 0.56 seconds
+/home/user/fkeller/datasets/p2p-Gnutella25.gml
+computation time for degree = 0.788 seconds
+/home/user/fkeller/datasets/as-22july06.gml
+computation time for degree = 0.712 seconds
+/home/user/fkeller/datasets/eatrs.gml
+computation time for degree = 0.602 seconds
+/home/user/fkeller/datasets/p2p-Gnutella24.gml
+computation time for degree = 0.957 seconds
+/home/user/fkeller/datasets/hep-th.gml
+computation time for degree = 0.785 seconds
+/home/user/fkeller/datasets/hep-th-new.gml
+computation time for degree = 0.894 seconds
+/home/user/fkeller/datasets/p2p-Gnutella30.gml
+computation time for degree = 1.289 seconds
+/home/user/fkeller/datasets/p2p-Gnutella.gml
+computation time for degree = 2.151 seconds
+/home/user/fkeller/datasets/soc-Epinions1.gml
+computation time for degree = 3.089 seconds
+/home/user/fkeller/datasets/soc-slashdot0811.gml
+computation time for degree = 2.315 seconds
+/home/user/fkeller/datasets/wordnet.gml
+computation time for degree = 2.567 seconds
+/home/user/fkeller/datasets/soc-sign-epinions.gml
+computation time for degree = 3.688 seconds
+/home/user/fkeller/datasets/com-amazon.gml
+computation time for degree = 12.447 seconds
+read file examplegraph
+read file karate
+read file dolphins
+read file polbooks
+read file ht2009_15min
+read file football
+read file jazz
+read file airlines
+read file celegansneural
+read file celegans
+read file codeminer
+read file email
+read file polblogs
+read file yeast
+read file facebook
+read file power
+read file geom
+read file eva
+read file pgpgiantcompo
+read file p2p-Gnutella04
+read file days
+read file comichero
+read file p2p-Gnutella25
+read file as-22july06
+read file eatrs
+read file p2p-Gnutella24
+read file hep-th
+read file hep-th-new
+read file p2p-Gnutella30
+read file p2p-Gnutella
+read file soc-Epinions1
+read file soc-slashdot0811
+read file wordnet
+read file soc-sign-epinions
+read file com-amazon
+All files read successfully
+/home/user/fkeller/datasets/examplegraph.gml
+computation time for degree = 0.052 seconds
+/home/user/fkeller/datasets/karate.gml
+computation time for degree = 0.051 seconds
+/home/user/fkeller/datasets/dolphins.gml
+computation time for degree = 0.055 seconds
+/home/user/fkeller/datasets/polbooks.gml
+computation time for degree = 0.06 seconds
+/home/user/fkeller/datasets/ht2009_15min.gml
+computation time for degree = 0.057 seconds
+/home/user/fkeller/datasets/football.gml
+computation time for degree = 0.061 seconds
+/home/user/fkeller/datasets/jazz.gml
+computation time for degree = 0.074 seconds
+/home/user/fkeller/datasets/airlines.gml
+computation time for degree = 0.072 seconds
+/home/user/fkeller/datasets/celegansneural.gml
+computation time for degree = 0.069 seconds
+/home/user/fkeller/datasets/celegans.gml
+computation time for degree = 0.075 seconds
+/home/user/fkeller/datasets/codeminer.gml
+computation time for degree = 0.069 seconds
+/home/user/fkeller/datasets/email.gml
+computation time for degree = 0.092 seconds
+/home/user/fkeller/datasets/polblogs.gml
+computation time for degree = 0.104 seconds
+/home/user/fkeller/datasets/yeast.gml
+computation time for degree = 0.14 seconds
+/home/user/fkeller/datasets/facebook.gml
+computation time for degree = 0.179 seconds
+/home/user/fkeller/datasets/power.gml
+computation time for degree = 0.261 seconds
+/home/user/fkeller/datasets/geom.gml
+computation time for degree = 0.276 seconds
+/home/user/fkeller/datasets/eva.gml
+computation time for degree = 0.332 seconds
+/home/user/fkeller/datasets/pgpgiantcompo.gml
+computation time for degree = 0.31 seconds
+/home/user/fkeller/datasets/p2p-Gnutella04.gml
+computation time for degree = 0.408 seconds
+/home/user/fkeller/datasets/days.gml
+computation time for degree = 0.308 seconds
+/home/user/fkeller/datasets/comichero.gml
+computation time for degree = 0.5 seconds
+/home/user/fkeller/datasets/p2p-Gnutella25.gml
+computation time for degree = 0.754 seconds
+/home/user/fkeller/datasets/as-22july06.gml
+computation time for degree = 0.739 seconds
+/home/user/fkeller/datasets/eatrs.gml
+computation time for degree = 0.66 seconds
+/home/user/fkeller/datasets/p2p-Gnutella24.gml
+computation time for degree = 1.057 seconds
+/home/user/fkeller/datasets/hep-th.gml
+computation time for degree = 0.789 seconds
+/home/user/fkeller/datasets/hep-th-new.gml
+computation time for degree = 0.872 seconds
+/home/user/fkeller/datasets/p2p-Gnutella30.gml
+computation time for degree = 1.305 seconds
+/home/user/fkeller/datasets/p2p-Gnutella.gml
+computation time for degree = 2.224 seconds
+/home/user/fkeller/datasets/soc-Epinions1.gml
+computation time for degree = 2.862 seconds
+/home/user/fkeller/datasets/soc-slashdot0811.gml
+computation time for degree = 2.03 seconds
+/home/user/fkeller/datasets/wordnet.gml
+computation time for degree = 2.481 seconds
+/home/user/fkeller/datasets/soc-sign-epinions.gml
+computation time for degree = 2.946 seconds
+/home/user/fkeller/datasets/com-amazon.gml
+computation time for degree = 11.507 seconds
+read file examplegraph
+read file karate
+read file dolphins
+read file polbooks
+read file ht2009_15min
+read file football
+read file jazz
+read file airlines
+read file celegansneural
+read file celegans
+read file codeminer
+read file email
+read file polblogs
+read file yeast
+read file facebook
+read file power
+read file geom
+read file eva
+read file pgpgiantcompo
+read file p2p-Gnutella04
+read file days
+read file comichero
+read file p2p-Gnutella25
+read file as-22july06
+read file eatrs
+read file p2p-Gnutella24
+read file hep-th
+read file hep-th-new
+read file p2p-Gnutella30
+read file p2p-Gnutella
+read file soc-Epinions1
+read file soc-slashdot0811
+read file wordnet
+read file soc-sign-epinions
+read file com-amazon
+All files read successfully
+/home/user/fkeller/datasets/examplegraph.gml
+computation time for degree = 0.048 seconds
+/home/user/fkeller/datasets/karate.gml
+computation time for degree = 0.049 seconds
+/home/user/fkeller/datasets/dolphins.gml
+computation time for degree = 0.058 seconds
+/home/user/fkeller/datasets/polbooks.gml
+computation time for degree = 0.054 seconds
+/home/user/fkeller/datasets/ht2009_15min.gml
+computation time for degree = 0.067 seconds
+/home/user/fkeller/datasets/football.gml
+computation time for degree = 0.058 seconds
+/home/user/fkeller/datasets/jazz.gml
+computation time for degree = 0.063 seconds
+/home/user/fkeller/datasets/airlines.gml
+computation time for degree = 0.066 seconds
+/home/user/fkeller/datasets/celegansneural.gml
+computation time for degree = 0.078 seconds
+/home/user/fkeller/datasets/celegans.gml
+computation time for degree = 0.071 seconds
+/home/user/fkeller/datasets/codeminer.gml
+computation time for degree = 0.078 seconds
+/home/user/fkeller/datasets/email.gml
+computation time for degree = 0.097 seconds
+/home/user/fkeller/datasets/polblogs.gml
+computation time for degree = 0.097 seconds
+/home/user/fkeller/datasets/yeast.gml
+computation time for degree = 0.129 seconds
+/home/user/fkeller/datasets/facebook.gml
+computation time for degree = 0.18 seconds
+/home/user/fkeller/datasets/power.gml
+computation time for degree = 0.182 seconds
+/home/user/fkeller/datasets/geom.gml
+computation time for degree = 0.192 seconds
+/home/user/fkeller/datasets/eva.gml
+computation time for degree = 0.343 seconds
+/home/user/fkeller/datasets/pgpgiantcompo.gml
+computation time for degree = 0.402 seconds
+/home/user/fkeller/datasets/p2p-Gnutella04.gml
+computation time for degree = 0.412 seconds
+/home/user/fkeller/datasets/days.gml
+computation time for degree = 0.363 seconds
+/home/user/fkeller/datasets/comichero.gml
+computation time for degree = 0.544 seconds
+/home/user/fkeller/datasets/p2p-Gnutella25.gml
+computation time for degree = 0.879 seconds
+/home/user/fkeller/datasets/as-22july06.gml
+computation time for degree = 0.74 seconds
+/home/user/fkeller/datasets/eatrs.gml
+computation time for degree = 0.563 seconds
+/home/user/fkeller/datasets/p2p-Gnutella24.gml
+computation time for degree = 0.943 seconds
+/home/user/fkeller/datasets/hep-th.gml
+computation time for degree = 0.968 seconds
+/home/user/fkeller/datasets/hep-th-new.gml
+computation time for degree = 0.852 seconds
+/home/user/fkeller/datasets/p2p-Gnutella30.gml
+computation time for degree = 1.372 seconds
+/home/user/fkeller/datasets/p2p-Gnutella.gml
+computation time for degree = 2.165 seconds
+/home/user/fkeller/datasets/soc-Epinions1.gml
+computation time for degree = 2.979 seconds
+/home/user/fkeller/datasets/soc-slashdot0811.gml
+computation time for degree = 2.625 seconds
+/home/user/fkeller/datasets/wordnet.gml
+computation time for degree = 2.314 seconds
+/home/user/fkeller/datasets/soc-sign-epinions.gml
+computation time for degree = 3.685 seconds
+/home/user/fkeller/datasets/com-amazon.gml
+computation time for degree = 11.856 seconds
+read file examplegraph
+read file karate
+read file dolphins
+read file polbooks
+read file ht2009_15min
+read file football
+read file jazz
+read file airlines
+read file celegansneural
+read file celegans
+read file codeminer
+read file email
+read file polblogs
+read file yeast
+read file facebook
+read file power
+read file geom
+read file eva
+read file pgpgiantcompo
+read file p2p-Gnutella04
+read file days
+read file comichero
+read file p2p-Gnutella25
+read file as-22july06
+read file eatrs
+read file p2p-Gnutella24
+read file hep-th
+read file hep-th-new
+read file p2p-Gnutella30
+read file p2p-Gnutella
+read file soc-Epinions1
+read file soc-slashdot0811
+read file wordnet
+read file soc-sign-epinions
+read file com-amazon
+All files read successfully
+/home/user/fkeller/datasets/examplegraph.gml
+computation time for degree = 0.047 seconds
+/home/user/fkeller/datasets/karate.gml
+computation time for degree = 0.049 seconds
+/home/user/fkeller/datasets/dolphins.gml
+computation time for degree = 0.05 seconds
+/home/user/fkeller/datasets/polbooks.gml
+computation time for degree = 0.058 seconds
+/home/user/fkeller/datasets/ht2009_15min.gml
+computation time for degree = 0.063 seconds
+/home/user/fkeller/datasets/football.gml
+computation time for degree = 0.061 seconds
+/home/user/fkeller/datasets/jazz.gml
+computation time for degree = 0.062 seconds
+/home/user/fkeller/datasets/airlines.gml
+computation time for degree = 0.058 seconds
+/home/user/fkeller/datasets/celegansneural.gml
+computation time for degree = 0.067 seconds
+/home/user/fkeller/datasets/celegans.gml
+computation time for degree = 0.068 seconds
+/home/user/fkeller/datasets/codeminer.gml
+computation time for degree = 0.078 seconds
+/home/user/fkeller/datasets/email.gml
+computation time for degree = 0.085 seconds
+/home/user/fkeller/datasets/polblogs.gml
+computation time for degree = 0.131 seconds
+/home/user/fkeller/datasets/yeast.gml
+computation time for degree = 0.126 seconds
+/home/user/fkeller/datasets/facebook.gml
+computation time for degree = 0.176 seconds
+/home/user/fkeller/datasets/power.gml
+computation time for degree = 0.18 seconds
+/home/user/fkeller/datasets/geom.gml
+computation time for degree = 0.264 seconds
+/home/user/fkeller/datasets/eva.gml
+computation time for degree = 0.351 seconds
+/home/user/fkeller/datasets/pgpgiantcompo.gml
+computation time for degree = 0.328 seconds
+/home/user/fkeller/datasets/p2p-Gnutella04.gml
+computation time for degree = 0.432 seconds
+/home/user/fkeller/datasets/days.gml
+computation time for degree = 0.361 seconds
+/home/user/fkeller/datasets/comichero.gml
+computation time for degree = 0.57 seconds
+/home/user/fkeller/datasets/p2p-Gnutella25.gml
+computation time for degree = 0.857 seconds
+/home/user/fkeller/datasets/as-22july06.gml
+computation time for degree = 0.706 seconds
+/home/user/fkeller/datasets/eatrs.gml
+computation time for degree = 0.558 seconds
+/home/user/fkeller/datasets/p2p-Gnutella24.gml
+computation time for degree = 0.849 seconds
+/home/user/fkeller/datasets/hep-th.gml
+computation time for degree = 0.974 seconds
+/home/user/fkeller/datasets/hep-th-new.gml
+computation time for degree = 0.875 seconds
+/home/user/fkeller/datasets/p2p-Gnutella30.gml
+computation time for degree = 1.278 seconds
+/home/user/fkeller/datasets/p2p-Gnutella.gml
+computation time for degree = 2.012 seconds
+/home/user/fkeller/datasets/soc-Epinions1.gml
+computation time for degree = 2.451 seconds
+/home/user/fkeller/datasets/soc-slashdot0811.gml
+computation time for degree = 1.798 seconds
+/home/user/fkeller/datasets/wordnet.gml
+computation time for degree = 2.065 seconds
+/home/user/fkeller/datasets/soc-sign-epinions.gml
+computation time for degree = 3.167 seconds
+/home/user/fkeller/datasets/com-amazon.gml
+computation time for degree = 10.99 seconds
+read file examplegraph
+read file karate
+read file dolphins
+read file polbooks
+read file ht2009_15min
+read file football
+read file jazz
+read file airlines
+read file celegansneural
+read file celegans
+read file codeminer
+read file email
+read file polblogs
+read file yeast
+read file facebook
+read file power
+read file geom
+read file eva
+read file pgpgiantcompo
+read file p2p-Gnutella04
+read file days
+read file comichero
+read file p2p-Gnutella25
+read file as-22july06
+read file eatrs
+read file p2p-Gnutella24
+read file hep-th
+read file hep-th-new
+read file p2p-Gnutella30
+read file p2p-Gnutella
+read file soc-Epinions1
+read file soc-slashdot0811
+read file wordnet
+read file soc-sign-epinions
+read file com-amazon
+All files read successfully
+/home/user/fkeller/datasets/examplegraph.gml
+computation time for degree = 0.05 seconds
+/home/user/fkeller/datasets/karate.gml
+computation time for degree = 0.048 seconds
+/home/user/fkeller/datasets/dolphins.gml
+computation time for degree = 0.057 seconds
+/home/user/fkeller/datasets/polbooks.gml
+computation time for degree = 0.057 seconds
+/home/user/fkeller/datasets/ht2009_15min.gml
+computation time for degree = 0.053 seconds
+/home/user/fkeller/datasets/football.gml
+computation time for degree = 0.056 seconds
+/home/user/fkeller/datasets/jazz.gml
+computation time for degree = 0.07 seconds
+/home/user/fkeller/datasets/airlines.gml
+computation time for degree = 0.065 seconds
+/home/user/fkeller/datasets/celegansneural.gml
+computation time for degree = 0.065 seconds
+/home/user/fkeller/datasets/celegans.gml
+computation time for degree = 0.063 seconds
+/home/user/fkeller/datasets/codeminer.gml
+computation time for degree = 0.068 seconds
+/home/user/fkeller/datasets/email.gml
+computation time for degree = 0.102 seconds
+/home/user/fkeller/datasets/polblogs.gml
+computation time for degree = 0.137 seconds
+/home/user/fkeller/datasets/yeast.gml
+computation time for degree = 0.116 seconds
+/home/user/fkeller/datasets/facebook.gml
+computation time for degree = 0.134 seconds
+/home/user/fkeller/datasets/power.gml
+computation time for degree = 0.169 seconds
+/home/user/fkeller/datasets/geom.gml
+computation time for degree = 0.253 seconds
+/home/user/fkeller/datasets/eva.gml
+computation time for degree = 0.348 seconds
+/home/user/fkeller/datasets/pgpgiantcompo.gml
+computation time for degree = 0.345 seconds
+/home/user/fkeller/datasets/p2p-Gnutella04.gml
+computation time for degree = 0.442 seconds
+/home/user/fkeller/datasets/days.gml
+computation time for degree = 0.332 seconds
+/home/user/fkeller/datasets/comichero.gml
+computation time for degree = 0.601 seconds
+/home/user/fkeller/datasets/p2p-Gnutella25.gml
+computation time for degree = 0.779 seconds
+/home/user/fkeller/datasets/as-22july06.gml
+computation time for degree = 0.717 seconds
+/home/user/fkeller/datasets/eatrs.gml
+computation time for degree = 0.611 seconds
+/home/user/fkeller/datasets/p2p-Gnutella24.gml
+computation time for degree = 0.975 seconds
+/home/user/fkeller/datasets/hep-th.gml
+computation time for degree = 0.863 seconds
+/home/user/fkeller/datasets/hep-th-new.gml
+computation time for degree = 0.939 seconds
+/home/user/fkeller/datasets/p2p-Gnutella30.gml
+computation time for degree = 1.265 seconds
+/home/user/fkeller/datasets/p2p-Gnutella.gml
+computation time for degree = 2.009 seconds
+/home/user/fkeller/datasets/soc-Epinions1.gml
+computation time for degree = 2.508 seconds
+/home/user/fkeller/datasets/soc-slashdot0811.gml
+computation time for degree = 2.655 seconds
+/home/user/fkeller/datasets/wordnet.gml
+computation time for degree = 2.592 seconds
+/home/user/fkeller/datasets/soc-sign-epinions.gml
+computation time for degree = 3.997 seconds
+/home/user/fkeller/datasets/com-amazon.gml
+computation time for degree = 11.628 seconds
+read file examplegraph
+read file karate
+read file dolphins
+read file polbooks
+read file ht2009_15min
+read file football
+read file jazz
+read file airlines
+read file celegansneural
+read file celegans
+read file codeminer
+read file email
+read file polblogs
+read file yeast
+read file facebook
+read file power
+read file geom
+read file eva
+read file pgpgiantcompo
+read file p2p-Gnutella04
+read file days
+read file comichero
+read file p2p-Gnutella25
+read file as-22july06
+read file eatrs
+read file p2p-Gnutella24
+read file hep-th
+read file hep-th-new
+read file p2p-Gnutella30
+read file p2p-Gnutella
+read file soc-Epinions1
+read file soc-slashdot0811
+read file wordnet
+read file soc-sign-epinions
+read file com-amazon
+All files read successfully
+/home/user/fkeller/datasets/examplegraph.gml
+computation time for degree = 0.048 seconds
+/home/user/fkeller/datasets/karate.gml
+computation time for degree = 0.05 seconds
+/home/user/fkeller/datasets/dolphins.gml
+computation time for degree = 0.056 seconds
+/home/user/fkeller/datasets/polbooks.gml
+computation time for degree = 0.071 seconds
+/home/user/fkeller/datasets/ht2009_15min.gml
+computation time for degree = 0.064 seconds
+/home/user/fkeller/datasets/football.gml
+computation time for degree = 0.058 seconds
+/home/user/fkeller/datasets/jazz.gml
+computation time for degree = 0.062 seconds
+/home/user/fkeller/datasets/airlines.gml
+computation time for degree = 0.067 seconds
+/home/user/fkeller/datasets/celegansneural.gml
+computation time for degree = 0.058 seconds
+/home/user/fkeller/datasets/celegans.gml
+computation time for degree = 0.067 seconds
+/home/user/fkeller/datasets/codeminer.gml
+computation time for degree = 0.073 seconds
+/home/user/fkeller/datasets/email.gml
+computation time for degree = 0.111 seconds
+/home/user/fkeller/datasets/polblogs.gml
+computation time for degree = 0.106 seconds
+/home/user/fkeller/datasets/yeast.gml
+computation time for degree = 0.148 seconds
+/home/user/fkeller/datasets/facebook.gml
+computation time for degree = 0.174 seconds
+/home/user/fkeller/datasets/power.gml
+computation time for degree = 0.198 seconds
+/home/user/fkeller/datasets/geom.gml
+computation time for degree = 0.25 seconds
+/home/user/fkeller/datasets/eva.gml
+computation time for degree = 0.341 seconds
+/home/user/fkeller/datasets/pgpgiantcompo.gml
+computation time for degree = 0.339 seconds
+/home/user/fkeller/datasets/p2p-Gnutella04.gml
+computation time for degree = 0.424 seconds
+/home/user/fkeller/datasets/days.gml
+computation time for degree = 0.4 seconds
+/home/user/fkeller/datasets/comichero.gml
+computation time for degree = 0.532 seconds
+/home/user/fkeller/datasets/p2p-Gnutella25.gml
+computation time for degree = 0.766 seconds
+/home/user/fkeller/datasets/as-22july06.gml
+computation time for degree = 0.668 seconds
+/home/user/fkeller/datasets/eatrs.gml
+computation time for degree = 0.552 seconds
+/home/user/fkeller/datasets/p2p-Gnutella24.gml
+computation time for degree = 0.923 seconds
+/home/user/fkeller/datasets/hep-th.gml
+computation time for degree = 1.05 seconds
+/home/user/fkeller/datasets/hep-th-new.gml
+computation time for degree = 0.988 seconds
+/home/user/fkeller/datasets/p2p-Gnutella30.gml
+computation time for degree = 1.18 seconds
+/home/user/fkeller/datasets/p2p-Gnutella.gml
+computation time for degree = 2.17 seconds
+/home/user/fkeller/datasets/soc-Epinions1.gml
+computation time for degree = 2.59 seconds
+/home/user/fkeller/datasets/soc-slashdot0811.gml
+computation time for degree = 2.597 seconds
+/home/user/fkeller/datasets/wordnet.gml
+Oct 11, 2014 3:45:50 PM org.jboss.netty.util.internal.SharedResourceMisuseDetector
+WARNING: You are creating too many HashedWheelTimer instances.  HashedWheelTimer is a shared resource that must be reused across the application, so that only a few instances are created.
+computation time for degree = 2.63 seconds
+/home/user/fkeller/datasets/soc-sign-epinions.gml
+computation time for degree = 3.675 seconds
+/home/user/fkeller/datasets/com-amazon.gml
+computation time for degree = 12.073 seconds
+read file examplegraph
+read file karate
+read file dolphins
+read file polbooks
+read file ht2009_15min
+read file football
+read file jazz
+read file airlines
+read file celegansneural
+read file celegans
+read file codeminer
+read file email
+read file polblogs
+read file yeast
+read file facebook
+read file power
+read file geom
+read file eva
+read file pgpgiantcompo
+read file p2p-Gnutella04
+read file days
+read file comichero
+read file p2p-Gnutella25
+read file as-22july06
+read file eatrs
+read file p2p-Gnutella24
+read file hep-th
+read file hep-th-new
+read file p2p-Gnutella30
+read file p2p-Gnutella
+read file soc-Epinions1
+read file soc-slashdot0811
+read file wordnet
+read file soc-sign-epinions
+read file com-amazon
+All files read successfully
+/home/user/fkeller/datasets/examplegraph.gml
+computation time for degree = 0.048 seconds
+/home/user/fkeller/datasets/karate.gml
+computation time for degree = 0.048 seconds
+/home/user/fkeller/datasets/dolphins.gml
+computation time for degree = 0.06 seconds
+/home/user/fkeller/datasets/polbooks.gml
+computation time for degree = 0.057 seconds
+/home/user/fkeller/datasets/ht2009_15min.gml
+computation time for degree = 0.066 seconds
+/home/user/fkeller/datasets/football.gml
+computation time for degree = 0.052 seconds
+/home/user/fkeller/datasets/jazz.gml
+computation time for degree = 0.067 seconds
+/home/user/fkeller/datasets/airlines.gml
+computation time for degree = 0.076 seconds
+/home/user/fkeller/datasets/celegansneural.gml
+computation time for degree = 0.065 seconds
+/home/user/fkeller/datasets/celegans.gml
+computation time for degree = 0.056 seconds
+/home/user/fkeller/datasets/codeminer.gml
+computation time for degree = 0.08 seconds
+/home/user/fkeller/datasets/email.gml
+computation time for degree = 0.119 seconds
+/home/user/fkeller/datasets/polblogs.gml
+computation time for degree = 0.09 seconds
+/home/user/fkeller/datasets/yeast.gml
+computation time for degree = 0.127 seconds
+/home/user/fkeller/datasets/facebook.gml
+computation time for degree = 0.171 seconds
+/home/user/fkeller/datasets/power.gml
+computation time for degree = 0.21 seconds
+/home/user/fkeller/datasets/geom.gml
+computation time for degree = 0.251 seconds
+/home/user/fkeller/datasets/eva.gml
+computation time for degree = 0.341 seconds
+/home/user/fkeller/datasets/pgpgiantcompo.gml
+computation time for degree = 0.368 seconds
+/home/user/fkeller/datasets/p2p-Gnutella04.gml
+computation time for degree = 0.44 seconds
+/home/user/fkeller/datasets/days.gml
+computation time for degree = 0.389 seconds
+/home/user/fkeller/datasets/comichero.gml
+computation time for degree = 0.564 seconds
+/home/user/fkeller/datasets/p2p-Gnutella25.gml
+computation time for degree = 0.741 seconds
+/home/user/fkeller/datasets/as-22july06.gml
+computation time for degree = 0.689 seconds
+/home/user/fkeller/datasets/eatrs.gml
+computation time for degree = 0.649 seconds
+/home/user/fkeller/datasets/p2p-Gnutella24.gml
+computation time for degree = 0.964 seconds
+/home/user/fkeller/datasets/hep-th.gml
+computation time for degree = 0.922 seconds
+/home/user/fkeller/datasets/hep-th-new.gml
+computation time for degree = 0.877 seconds
+/home/user/fkeller/datasets/p2p-Gnutella30.gml
+computation time for degree = 1.193 seconds
+/home/user/fkeller/datasets/p2p-Gnutella.gml
+computation time for degree = 2.408 seconds
+/home/user/fkeller/datasets/soc-Epinions1.gml
+computation time for degree = 2.771 seconds
+/home/user/fkeller/datasets/soc-slashdot0811.gml
+computation time for degree = 2.544 seconds
+/home/user/fkeller/datasets/wordnet.gml
+computation time for degree = 2.447 seconds
+/home/user/fkeller/datasets/soc-sign-epinions.gml
+computation time for degree = 3.633 seconds
+/home/user/fkeller/datasets/com-amazon.gml
+computation time for degree = 12.245 seconds
+read file examplegraph
+read file karate
+read file dolphins
+read file polbooks
+read file ht2009_15min
+read file football
+read file jazz
+read file airlines
+read file celegansneural
+read file celegans
+read file codeminer
+read file email
+read file polblogs
+read file yeast
+read file facebook
+read file power
+read file geom
+read file eva
+read file pgpgiantcompo
+read file p2p-Gnutella04
+read file days
+read file comichero
+read file p2p-Gnutella25
+read file as-22july06
+read file eatrs
+read file p2p-Gnutella24
+read file hep-th
+read file hep-th-new
+read file p2p-Gnutella30
+read file p2p-Gnutella
+read file soc-Epinions1
+read file soc-slashdot0811
+read file wordnet
+read file soc-sign-epinions
+read file com-amazon
+All files read successfully
+/home/user/fkeller/datasets/examplegraph.gml
+computation time for degree = 0.044 seconds
+/home/user/fkeller/datasets/karate.gml
+computation time for degree = 0.053 seconds
+/home/user/fkeller/datasets/dolphins.gml
+computation time for degree = 0.049 seconds
+/home/user/fkeller/datasets/polbooks.gml
+computation time for degree = 0.064 seconds
+/home/user/fkeller/datasets/ht2009_15min.gml
+computation time for degree = 0.072 seconds
+/home/user/fkeller/datasets/football.gml
+computation time for degree = 0.062 seconds
+/home/user/fkeller/datasets/jazz.gml
+computation time for degree = 0.062 seconds
+/home/user/fkeller/datasets/airlines.gml
+computation time for degree = 0.061 seconds
+/home/user/fkeller/datasets/celegansneural.gml
+computation time for degree = 0.065 seconds
+/home/user/fkeller/datasets/celegans.gml
+computation time for degree = 0.074 seconds
+/home/user/fkeller/datasets/codeminer.gml
+computation time for degree = 0.073 seconds
+/home/user/fkeller/datasets/email.gml
+computation time for degree = 0.104 seconds
+/home/user/fkeller/datasets/polblogs.gml
+computation time for degree = 0.106 seconds
+/home/user/fkeller/datasets/yeast.gml
+computation time for degree = 0.106 seconds
+/home/user/fkeller/datasets/facebook.gml
+computation time for degree = 0.19 seconds
+/home/user/fkeller/datasets/power.gml
+computation time for degree = 0.188 seconds
+/home/user/fkeller/datasets/geom.gml
+computation time for degree = 0.245 seconds
+/home/user/fkeller/datasets/eva.gml
+computation time for degree = 0.334 seconds
+/home/user/fkeller/datasets/pgpgiantcompo.gml
+computation time for degree = 0.342 seconds
+/home/user/fkeller/datasets/p2p-Gnutella04.gml
+computation time for degree = 0.41 seconds
+/home/user/fkeller/datasets/days.gml
+computation time for degree = 0.369 seconds
+/home/user/fkeller/datasets/comichero.gml
+computation time for degree = 0.578 seconds
+/home/user/fkeller/datasets/p2p-Gnutella25.gml
+computation time for degree = 0.853 seconds
+/home/user/fkeller/datasets/as-22july06.gml
+computation time for degree = 0.789 seconds
+/home/user/fkeller/datasets/eatrs.gml
+computation time for degree = 0.482 seconds
+/home/user/fkeller/datasets/p2p-Gnutella24.gml
+computation time for degree = 0.869 seconds
+/home/user/fkeller/datasets/hep-th.gml
+computation time for degree = 0.942 seconds
+/home/user/fkeller/datasets/hep-th-new.gml
+computation time for degree = 0.953 seconds
+/home/user/fkeller/datasets/p2p-Gnutella30.gml
+computation time for degree = 1.32 seconds
+/home/user/fkeller/datasets/p2p-Gnutella.gml
+computation time for degree = 2.165 seconds
+/home/user/fkeller/datasets/soc-Epinions1.gml
+computation time for degree = 2.575 seconds
+/home/user/fkeller/datasets/soc-slashdot0811.gml
+computation time for degree = 1.998 seconds
+/home/user/fkeller/datasets/wordnet.gml
+computation time for degree = 2.542 seconds
+/home/user/fkeller/datasets/soc-sign-epinions.gml
+computation time for degree = 3.304 seconds
+/home/user/fkeller/datasets/com-amazon.gml
+computation time for degree = 10.823 seconds
+read file examplegraph
+read file karate
+read file dolphins
+read file polbooks
+read file ht2009_15min
+read file football
+read file jazz
+read file airlines
+read file celegansneural
+read file celegans
+read file codeminer
+read file email
+read file polblogs
+read file yeast
+read file facebook
+read file power
+read file geom
+read file eva
+read file pgpgiantcompo
+read file p2p-Gnutella04
+read file days
+read file comichero
+read file p2p-Gnutella25
+read file as-22july06
+read file eatrs
+read file p2p-Gnutella24
+read file hep-th
+read file hep-th-new
+read file p2p-Gnutella30
+read file p2p-Gnutella
+read file soc-Epinions1
+read file soc-slashdot0811
+read file wordnet
+read file soc-sign-epinions
+read file com-amazon
+All files read successfully
+/home/user/fkeller/datasets/examplegraph.gml
+computation time for degree = 0.046 seconds
+/home/user/fkeller/datasets/karate.gml
+computation time for degree = 0.05 seconds
+/home/user/fkeller/datasets/dolphins.gml
+computation time for degree = 0.056 seconds
+/home/user/fkeller/datasets/polbooks.gml
+computation time for degree = 0.058 seconds
+/home/user/fkeller/datasets/ht2009_15min.gml
+computation time for degree = 0.067 seconds
+/home/user/fkeller/datasets/football.gml
+computation time for degree = 0.054 seconds
+/home/user/fkeller/datasets/jazz.gml
+computation time for degree = 0.074 seconds
+/home/user/fkeller/datasets/airlines.gml
+computation time for degree = 0.075 seconds
+/home/user/fkeller/datasets/celegansneural.gml
+computation time for degree = 0.055 seconds
+/home/user/fkeller/datasets/celegans.gml
+computation time for degree = 0.071 seconds
+/home/user/fkeller/datasets/codeminer.gml
+computation time for degree = 0.065 seconds
+/home/user/fkeller/datasets/email.gml
+computation time for degree = 0.08 seconds
+/home/user/fkeller/datasets/polblogs.gml
+computation time for degree = 0.1 seconds
+/home/user/fkeller/datasets/yeast.gml
+computation time for degree = 0.105 seconds
+/home/user/fkeller/datasets/facebook.gml
+computation time for degree = 0.195 seconds
+/home/user/fkeller/datasets/power.gml
+computation time for degree = 0.258 seconds
+/home/user/fkeller/datasets/geom.gml
+computation time for degree = 0.238 seconds
+/home/user/fkeller/datasets/eva.gml
+computation time for degree = 0.335 seconds
+/home/user/fkeller/datasets/pgpgiantcompo.gml
+computation time for degree = 0.381 seconds
+/home/user/fkeller/datasets/p2p-Gnutella04.gml
+computation time for degree = 0.444 seconds
+/home/user/fkeller/datasets/days.gml
+computation time for degree = 0.521 seconds
+/home/user/fkeller/datasets/comichero.gml
+computation time for degree = 0.582 seconds
+/home/user/fkeller/datasets/p2p-Gnutella25.gml
+computation time for degree = 0.889 seconds
+/home/user/fkeller/datasets/as-22july06.gml
+computation time for degree = 0.696 seconds
+/home/user/fkeller/datasets/eatrs.gml
+computation time for degree = 0.513 seconds
+/home/user/fkeller/datasets/p2p-Gnutella24.gml
+computation time for degree = 0.898 seconds
+/home/user/fkeller/datasets/hep-th.gml
+computation time for degree = 1.023 seconds
+/home/user/fkeller/datasets/hep-th-new.gml
+computation time for degree = 0.93 seconds
+/home/user/fkeller/datasets/p2p-Gnutella30.gml
+computation time for degree = 1.261 seconds
+/home/user/fkeller/datasets/p2p-Gnutella.gml
+computation time for degree = 2.202 seconds
+/home/user/fkeller/datasets/soc-Epinions1.gml
+computation time for degree = 3.397 seconds
+/home/user/fkeller/datasets/soc-slashdot0811.gml
+computation time for degree = 2.05 seconds
+/home/user/fkeller/datasets/wordnet.gml
+computation time for degree = 2.242 seconds
+/home/user/fkeller/datasets/soc-sign-epinions.gml
+computation time for degree = 4.447 seconds
+/home/user/fkeller/datasets/com-amazon.gml
+computation time for degree = 11.852 seconds
+fkeller@claudio12 ~ % 
