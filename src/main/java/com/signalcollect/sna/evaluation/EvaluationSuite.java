@@ -1,3 +1,21 @@
+/*
+ *  @author Flavio Keller
+ *
+ *  Copyright 2014 University of Zurich
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ */
 package com.signalcollect.sna.evaluation;
 
 import java.io.BufferedReader;
@@ -26,29 +44,45 @@ import com.signalcollect.sna.metrics.PathCollector;
 import com.signalcollect.sna.metrics.TriadCensus;
 import com.signalcollect.sna.parser.ParserImplementor;
 
+/**
+ * Performs evaluations of the social network analysis methods in Signal/Collect
+ * 
+ * @author flaviokeller
+ * 
+ */
 public class EvaluationSuite {
 
+	/** List that stores the recorded runtimes of the algorithms */
 	private List<Double> elapsedTimes;
+
+	/** The Signal/Collect instance */
 	private SignalCollectGephiConnector scgc;
+
+	/** List containing the files to be evaluated */
 	private ArrayList<String> fileNames;
-	private ArrayList<String> graphProperties;
 
+	/** String containing the directory of the files to be evaluated */
 	private String datasetDir = System.getProperty("user.home") + "/datasets/";
-//	private String localFileList = getClass().getResource("/filelist.txt")
-//			.getPath();
-	private String remoteFileList = System.getProperty("user.home")
-			+ "/filelist.txt";
 
+	/**
+	 * String containing the path to the file that contains the list of files to
+	 * be evaluated
+	 */
+	private String localFileList = getClass().getResource("/filelist.txt")
+			.getPath();
+
+	/**
+	 * Reads the file list from the localFileList and adds these file names to
+	 * the fileList
+	 */
 	public void readFileList() {
 		fileNames = new ArrayList<String>();
 		String line = "";
-		// String resourceDir = getClass().getResource("/").getPath();
 		try {
-			BufferedReader br = new BufferedReader(new FileReader(
-					remoteFileList));
+			BufferedReader br = new BufferedReader(
+					new FileReader(localFileList));
 			while ((line = br.readLine()) != null) {
 				fileNames.add(datasetDir + line + ".gml");
-				// System.out.println("read file " + line);
 			}
 			br.close();
 			System.out.println("All files read successfully");
@@ -59,6 +93,9 @@ public class EvaluationSuite {
 		}
 	}
 
+	/**
+	 * 
+	 */
 	public void parsingtest() {
 		System.out.println(SampleData.DATAARRAY);
 		for (String fName : fileNames) {
@@ -75,6 +112,12 @@ public class EvaluationSuite {
 
 	}
 
+	/**
+	 * Function with the purpose to warm up the jvm in order to minimize
+	 * outliers of recorded runtimes when performing the evaluation
+	 * 
+	 * @param className
+	 */
 	public void jvmWarmup(SNAClassNames className) {
 		switch (className) {
 		case DEGREE:
@@ -141,6 +184,10 @@ public class EvaluationSuite {
 
 	}
 
+	/**
+	 * Function that evaluates the runtime of the implemented Degree Centrality
+	 * algorithm
+	 */
 	public void evaluateDegree() {
 		jvmWarmup(SNAClassNames.DEGREE);
 		elapsedTimes = new ArrayList<Double>();
@@ -149,7 +196,6 @@ public class EvaluationSuite {
 			Graph g = scgc.getGraph();
 			long startTime = System.currentTimeMillis();
 			Degree.run(g);
-			// scgc.executeGraph();
 			long endTime = System.currentTimeMillis();
 			double elapsedTime = Double.valueOf(endTime - startTime) / 1000d;
 			elapsedTimes.add(elapsedTime);
@@ -158,6 +204,9 @@ public class EvaluationSuite {
 		}
 	}
 
+	/**
+	 * Function that evaluates the runtime of the implemented PageRank algorithm
+	 */
 	public void evaluatePageRank() {
 		jvmWarmup(SNAClassNames.PAGERANK);
 		elapsedTimes = new ArrayList<Double>();
@@ -175,12 +224,15 @@ public class EvaluationSuite {
 		}
 	}
 
-	public void evaluateCloseness(int lowerBound, int upperBound) {
+	/**
+	 * Function that evaluates the runtime of the implemented closeness
+	 * centrality algorithm
+	 */
+	public void evaluateCloseness() {
 		jvmWarmup(SNAClassNames.CLOSENESS);
 		elapsedTimes = new ArrayList<Double>();
-		for (int i = lowerBound; i < upperBound; i++) {
-			scgc = new ClosenessSignalCollectGephiConnectorImpl(
-					fileNames.get(i));
+		for (String dataSet : fileNames) {
+			scgc = new ClosenessSignalCollectGephiConnectorImpl(dataSet);
 			Graph g = scgc.getGraph();
 			long startTime = System.currentTimeMillis();
 			PathCollector.run(g, SNAClassNames.CLOSENESS);
@@ -188,16 +240,19 @@ public class EvaluationSuite {
 			double elapsedTime = Double.valueOf(endTime - startTime) / 1000d;
 			elapsedTimes.add(elapsedTime);
 			System.out.println("computation time for closeness with file "
-					+ fileNames.get(i) + " = " + elapsedTime + " seconds");
+					+ dataSet + " = " + elapsedTime + " seconds");
 		}
 	}
 
-	public void evaluateBetweenness(int lowerBound, int upperBound) {
+	/**
+	 * Function that evaluates the runtime of the implemented betweenness
+	 * centrality algorithm
+	 */
+	public void evaluateBetweenness() {
 		jvmWarmup(SNAClassNames.BETWEENNESS);
 		elapsedTimes = new ArrayList<Double>();
-		for (int i = lowerBound; i < upperBound; i++) {
-			scgc = new BetweennessSignalCollectGephiConnectorImpl(
-					fileNames.get(i));
+		for (String dataSet : fileNames) {
+			scgc = new BetweennessSignalCollectGephiConnectorImpl(dataSet);
 			Graph g = scgc.getGraph();
 			long startTime = System.currentTimeMillis();
 			PathCollector.run(g, SNAClassNames.BETWEENNESS);
@@ -205,16 +260,20 @@ public class EvaluationSuite {
 			double elapsedTime = Double.valueOf(endTime - startTime) / 1000d;
 			elapsedTimes.add(elapsedTime);
 			System.out.println("computation time for betweenness with file "
-					+ fileNames.get(i) + " = " + elapsedTime + " seconds");
+					+ dataSet + " = " + elapsedTime + " seconds");
 		}
 	}
 
-	public void evaluateLocalClusterCoefficient(int lowerBound, int upperBound) {
+	/**
+	 * Function that evaluates the runtime of the implemented local cluster
+	 * coefficient algorithm
+	 */
+	public void evaluateLocalClusterCoefficient() {
 		jvmWarmup(SNAClassNames.LOCALCLUSTERCOEFFICIENT);
 		elapsedTimes = new ArrayList<Double>();
-		for (int i = lowerBound; i < upperBound; i++) {
+		for (String dataSet : fileNames) {
 			scgc = new LocalClusterCoefficientSignalCollectGephiConnectorImpl(
-					fileNames.get(i));
+					dataSet);
 			Graph g = scgc.getGraph();
 			long startTime = System.currentTimeMillis();
 			LocalClusterCoefficient.run(g);
@@ -223,19 +282,19 @@ public class EvaluationSuite {
 			elapsedTimes.add(elapsedTime);
 			System.out
 					.println("computation time for local cluster coefficient with file "
-							+ fileNames.get(i)
-							+ " = "
-							+ elapsedTime
-							+ " seconds");
+							+ dataSet + " = " + elapsedTime + " seconds");
 		}
 	}
 
-	public void evaluateNodeTriad(int lowerBound, int upperBound) {
+	/**
+	 * Function that evaluates the runtime of the implemented triad census
+	 * algorithm
+	 */
+	public void evaluateTriadCensus() {
 		jvmWarmup(SNAClassNames.TRIADCENSUS);
 		elapsedTimes = new ArrayList<Double>();
-		for (int i = lowerBound; i < upperBound; i++) {
-			scgc = new TriadCensusSignalCollectGephiConnectorImpl(
-					fileNames.get(i));
+		for (String dataSet : fileNames) {
+			scgc = new TriadCensusSignalCollectGephiConnectorImpl(dataSet);
 			Graph g = scgc.getGraph();
 			long startTime = System.currentTimeMillis();
 			ExecutionResult er = TriadCensus.run(g);
@@ -243,46 +302,18 @@ public class EvaluationSuite {
 			double elapsedTime = Double.valueOf(endTime - startTime) / 1000d;
 			elapsedTimes.add(elapsedTime);
 			System.out.println("computation time for node triad with file "
-					+ fileNames.get(i) + " = " + elapsedTime + " seconds");
+					+ dataSet + " = " + elapsedTime + " seconds");
 			System.out.println("The triad census map looks like this\n"
 					+ er.compRes().vertexMap());
 		}
 	}
 
-	public void evaluatePathCollector(int lowerBound, int upperBound) {
-		jvmWarmup(SNAClassNames.PATH);
-		elapsedTimes = new ArrayList<Double>();
-		for (int i = lowerBound; i < upperBound; i++) {
-			scgc = new ClosenessSignalCollectGephiConnectorImpl(
-					fileNames.get(i));
-			Graph g = scgc.getGraph();
-			long startTime = System.currentTimeMillis();
-			// PathCollector.run(g);
-			long endTime = System.currentTimeMillis();
-			double elapsedTime = Double.valueOf(endTime - startTime) / 1000d;
-			elapsedTimes.add(elapsedTime);
-			System.out
-					.println("computation time for pure path collection with file "
-							+ fileNames.get(i)
-							+ " = "
-							+ elapsedTime
-							+ " seconds");
-		}
-	}
-
-	public void evaluateGraphProps(int lowerBound, int upperBound) {
-		graphProperties = new ArrayList<String>();
-		jvmWarmup(SNAClassNames.PATH);
-		elapsedTimes = new ArrayList<Double>();
-		for (int i = lowerBound; i < upperBound; i++) {
-			scgc = new ClosenessSignalCollectGephiConnectorImpl(
-					fileNames.get(i));
-			GraphProperties graphProps = scgc.getGraphProperties();
-			graphProperties.add(graphProps.toString());
-			System.out.println("done with file: " + fileNames.get(i));
-		}
-	}
-
+	/**
+	 * Function that evaluates the runtime of the implemented label propagation
+	 * algorithm
+	 * 
+	 * @param steps
+	 */
 	public void evaluateLabelPropagation(int steps) {
 		jvmWarmup(SNAClassNames.LABELPROPAGATION);
 		elapsedTimes = new ArrayList<Double>();
@@ -300,6 +331,11 @@ public class EvaluationSuite {
 		}
 	}
 
+	/**
+	 * Creates a text file with the recorded runtimes
+	 * 
+	 * @param evaluationType
+	 */
 	public void writeToFile(String evaluationType) {
 		FileWriter fw;
 		try {
@@ -313,39 +349,11 @@ public class EvaluationSuite {
 		}
 	}
 
-	public void writeToPropertyFile(String evaluationType) {
-		FileWriter fw;
-		try {
-			fw = new FileWriter("graphProperties_" + evaluationType + ".txt");
-			fw.write(graphProperties + "\n");
-			fw.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-
-	public void evaluatenewCloseness(int lowerBound, int upperBound) {
-		jvmWarmup(SNAClassNames.PATH);
-		elapsedTimes = new ArrayList<Double>();
-		for (int i = lowerBound; i < upperBound; i++) {
-			scgc = new ClosenessSignalCollectGephiConnectorImpl(
-					fileNames.get(i));
-			Graph g = scgc.getGraph();
-			long startTime = System.currentTimeMillis();
-			ExecutionResult er = PathCollector
-					.run(g, SNAClassNames.BETWEENNESS);
-			long endTime = System.currentTimeMillis();
-			double elapsedTime = Double.valueOf(endTime - startTime) / 1000d;
-			System.out.println(er.compRes().vertexMap());
-			elapsedTimes.add(elapsedTime);
-			System.out
-					.println("computation time for pure path collection BETWEENNESS with file "
-							// + fileNames.get(i)
-							+ " = " + elapsedTime + " seconds");
-		}
-
-	}
-
+	/**
+	 * execution function
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 		EvaluationSuite e = new EvaluationSuite();
@@ -366,54 +374,33 @@ public class EvaluationSuite {
 			break;
 		case "closeness":
 			for (int i = 0; i < 10; i++) {
-				e.evaluateCloseness(Integer.valueOf(args[1]),
-						Integer.valueOf(args[2]));
-				e.writeToFile(args[0] + "_" + i + "_files" + args[1] + "_to_"
-						+ args[2]);
+				e.evaluateCloseness();
+				e.writeToFile(args[0] + "_" + i);
 			}
 			break;
 		case "betweenness":
 			for (int i = 0; i < 10; i++) {
-				e.evaluateBetweenness(Integer.valueOf(args[1]),
-						Integer.valueOf(args[2]));
-				e.writeToFile(args[0] + "_" + i + "_files" + args[1] + "_to_"
-						+ args[2]);
+				e.evaluateBetweenness();
+				e.writeToFile(args[0] + "_" + i);
 			}
 			break;
 		case "lcc":
 			for (int i = 0; i < 10; i++) {
-				e.evaluateLocalClusterCoefficient(Integer.valueOf(args[1]),
-						Integer.valueOf(args[2]));
-				e.writeToFile(args[0] + "_" + i + "_files" + args[1] + "_to_"
-						+ args[2]);
+				e.evaluateLocalClusterCoefficient();
+				e.writeToFile(args[0] + "_" + i);
 			}
 			break;
 		case "triadcensus":
 			for (int i = 0; i < 10; i++) {
-				e.evaluateNodeTriad(Integer.valueOf(args[1]),
-						Integer.valueOf(args[2]));
-				e.writeToFile(args[0] + "_" + i + "_files" + args[1] + "_to_"
-						+ args[2]);
+				e.evaluateTriadCensus();
+				e.writeToFile(args[0] + "_" + i);
 			}
 			break;
 		case "labelpropagation":
 			for (int i = 0; i < 10; i++) {
 				e.evaluateLabelPropagation(Integer.valueOf(args[3]));
-				e.writeToFile(args[0] + "_" + i + "_files" + args[1] + "_to_"
-						+ args[2]);
+				e.writeToFile(args[0] + "_" + i);
 			}
-			break;
-		case "pathcollector":
-			for (int i = 0; i < 10; i++) {
-				e.evaluatePathCollector(Integer.valueOf(args[1]),
-						Integer.valueOf(args[2]));
-				e.writeToFile(args[0] + "_" + i + "_files" + args[1] + "_to_"
-						+ args[2]);
-			}
-		case "properties":
-			e.evaluateGraphProps(Integer.valueOf(args[1]),
-					Integer.valueOf(args[2]));
-			e.writeToPropertyFile("_files" + args[1] + "_to_" + args[2]);
 			break;
 
 		default:
